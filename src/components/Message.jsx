@@ -1,0 +1,13 @@
+import React from 'react'
+import Alert from 'react-bootstrap/Alert';
+function Message(variant, children) {
+  return (
+    <div>
+     <Alert variant={variant}>
+        {children}
+        </Alert> 
+    </div>
+  )
+}
+import Alert from 'react-bootstrap/Alert';
+export default message
